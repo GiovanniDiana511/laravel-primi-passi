@@ -16,7 +16,7 @@
             </ul>
     </div>
     <div class="box">
-        <ul>
+        <ul class="interactive-list">
             <li><h3>PASTIFICIO</h3></li>
             <li>Il Pastificio</li>
             <li>Grano decorticato a pietra</li>
@@ -26,7 +26,7 @@
             <li>Spaghetto Quadrato</li>
             <li>Le Persone</li>
         </ul>
-        <ul>
+        <ul class="interactive-list">
             <li><h3>PRODOTTI</h3></li>
             <li>Le Classiche</li>
             <li>Le Integrali</li>
@@ -38,7 +38,7 @@
         </ul>
     </div>
     <div class="box">
-        <ul>
+        <ul class="interactive-list">
             <li><h3>COLLEZIONE DA CHEF</h3></li>
             <li>Collezione da Chef</li>
             <li>Grandi Cucine</li>

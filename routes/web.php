@@ -24,3 +24,12 @@ Route::get('/', function () {
 Route::get('/prodotti', function () {
     return view('users.prodotti');
 })->name('prodotti');
+
+Route::get('/contatti', function () {
+    return view('users.contatti');
+})->name('contatti');
+
+//admin
+Route::get('admin/prodotti', function () {
+    return view('admin.prodotti');
+})->name('admin.prodotti');

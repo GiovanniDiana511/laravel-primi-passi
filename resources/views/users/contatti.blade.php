@@ -1,5 +1,5 @@
 @extends('layouts.layout')
 
 @section('titolo')
-    La Molisana
+    Contatti
 @endsection

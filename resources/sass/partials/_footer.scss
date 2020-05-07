@@ -19,6 +19,12 @@
                 }
             }
         }
+        .interactive-list {
+            :hover {
+                cursor: pointer;
+                color: black;
+            }
+        }
         flex: 0 0 100%;
         @media screen and (min-width:700px) {
             flex: 0 0 33.3%;

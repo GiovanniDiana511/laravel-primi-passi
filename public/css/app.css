@@ -17,6 +17,10 @@
   background-image: url("/../img/fondo-pag-speciali.jpg");
 }
 
+.active {
+  background-color: lightblue;
+}
+
 /* FOOTER */
 
 .container-footer {
@@ -48,6 +52,11 @@
 
 .container-footer .box ul li h3 {
   padding: 15px 0px;
+}
+
+.container-footer .box .interactive-list :hover {
+  cursor: pointer;
+  color: black;
 }
 
 @media screen and (min-width: 700px) {
@@ -83,13 +92,17 @@
 }
 
 .container-header nav ul li {
+  display: inline-block;
   color: #002d75;
   text-align: center;
   display: inline-block;
-  text-decoration: none;
   text-transform: capitalize;
   font-weight: bold;
   margin: 10px 5px;
+}
+
+.container-header nav ul li a {
+  text-decoration: none;
 }
 
 /* MAIN */

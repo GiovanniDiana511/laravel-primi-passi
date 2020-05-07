@@ -10,13 +10,16 @@
         ul {
             text-align: center;
             li {
+                display: inline-block;
                 color: $primary_color;
                 text-align: center;
                 display: inline-block;
-                text-decoration: none;
                 text-transform: capitalize;
                 font-weight: bold;
                 margin: 10px 5px;
+                a {
+                    text-decoration: none;
+                }
             }
         }
     }
