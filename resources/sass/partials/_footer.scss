@@ -20,6 +20,12 @@
             }
         }
         .interactive-list {
+            :first-child {
+                :hover {
+                    color: grey;
+                    cursor: auto;
+                }
+            }
             :hover {
                 cursor: pointer;
                 color: black;
