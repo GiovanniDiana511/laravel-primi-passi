@@ -5,3 +5,21 @@
 .active {
     background-color: lightblue;
 }
+
+.card-product {
+    position: relative;
+    margin: 20px 20px;
+    overflow: hidden;
+    img {
+        display: block;
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .text {
+        margin-top: 10px;
+        p {
+            font-weight: bold;
+        }
+    }
+}
