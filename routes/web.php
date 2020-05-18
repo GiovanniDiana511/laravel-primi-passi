@@ -17,9 +17,11 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //})->name('index');
 
-Route::get('/', function () {
-    return view('users.index');
-})->name('index');
+//Route::get('/', function () {
+//    return view('users.index');
+//})->name('index');
+
+Route::get('/', 'ProductController@index')->name('index');
 
 Route::get('/prodotti', function () {
     return view('users.prodotti');
